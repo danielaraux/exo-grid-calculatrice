@@ -1,4 +1,67 @@
 * {
     margin: 0;
-    background-color: beige;
+}
+
+h1 {
+    text-align: center;
+    padding: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.centrage-calculette {
+    border: 2px solid red;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculette {
+    border: 1px solid blue;
+    border-radius: 2rem;
+    padding: 2rem;
+
+}
+
+.partie-haute {
+    border: 1px solid red;
+}
+
+.ligne-casio {
+    border: 2px solid green;
+    display: flex;
+    justify-content: space-between;
+}
+
+.solaire {
+    border: 1px solid grey;
+    border-radius: 0.2rem;
+}
+
+.cadran {
+    border: 5px solid yellow;
+    background-color: lightgrey;
+    border-radius: 0.2rem;
+    margin: 5px;
+}
+
+.ligne-type {
+    display: flex;
+    justify-content: space-around;
+    font-size: 10px;
+}
+
+.chiffres {
+    display: flex;
+    justify-content: end;
+    font-size: 40px;
+}
+
+
+
+
+.bouton-type {
+    display: flex;
+    justify-content: end;
+    margin: 5px;
 }
