@@ -10,77 +10,87 @@
 
 <body>
 
-    <h1>Exercice Grid Calculatrice</h1>
+    <header>
+        <h1>Exercice Grid Calculatrice</h1>
+        <hr>
+    </header>
 
-    <div class="centrage-calculette">
-        <div class="calculette">
-            <div class="partie-haute">
-                <div class="ligne-casio">
-                    <div class="casio">CASIO</div>
-                    <div class="solaire">Solaire</div>
-                    <div class="modele">MS-80E</div>
-                </div>
-                <div class="cadran">
-                    <div class="ligne-type">
-                        <div class="euro">Euro</div>
-                        <div class="symbole">+</div>
-                    </div>
-                    <div class="chiffres">713705</div>
-                </div>
-            </div>
-            <div class="partie-basse">
-                <div class="bouton-type">
-                    <div class="set">Set</div>
-                    <div class="rate">Rate</div>
-                </div>
-                <div class="boutons">
-                    <div class="colonne-1">
-                        <button>OFF</button>
-                        <button>MC</button>
-                        <button>PLAY</button>
-                        <button>C</button>
-                        <button>AC</button>
-                        <button>0</button>
-                    </div>
-                    <div class="colonne-2">
-                        <button>+/-</button>
-                        <button>MR</button>
-                        <button>7</button>
-                        <button>4</button>
-                        <button>1</button>
-                        <button>00</button>
+    <main>
+        <!-- Création d'une div pour centrer la calculatrice en hauteur et largeur -->
+        <div class="centrage-calculette">
+
+            <!-- Création d'une div pour faire le contour de la calculatrice -->
+            <div class="calculette">
+
+                <!-- Création d'une div pour gérer la partie haute au niveau remplissage et contours -->
+                <div class="partie-haute">
+
+                    <!-- Création d'une div pour gérer la ligne avec le texte et le panneau solaire -->
+                    <div class="ligne-casio">
+                        <div class="casio">CASIO</div>
+                        <div class="solaire"></div>
+                        <div class="modele">MS-80E</div>
                     </div>
 
-                    <div class="colonne-3">
-                        <button>%</button>
-                        <button>M-</button>
-                        <button>8</button>
-                        <button>5</button>
-                        <button>2</button>
-                        <button>•</button>
+                    <!-- Création d'une div pour gérer le cadran -->
+                    <div class="cadran">
+
+                        <!-- Création d'une div pour gérer le texte sur le haut du cadran -->
+                        <div class="ligne-type">
+                            <div class="euro">Euro</div>
+                            <div class="symbole">+</div>
+                        </div>
+
+                        <!-- Création d'une div pour mettre les chiffres -->
+                        <div class="chiffres">713705</div>
+                    </div>
+                </div>
+
+                <!-- Création d'une div pour gérer la partie basse au niveau remplissage et contours -->
+                <div class="partie-basse">
+
+                    <!-- Création d'une div pour mettre en place le texte au dessus des boutons -->
+                    <div class="bouton-type">
+                        <div class="set">SET</div>
+                        <div class="rate">RATE</div>
                     </div>
 
-                    <div class="colonne-4">
-                        <button>Local</button>
-                        <button>M+</button>
-                        <button>9</button>
-                        <button>6</button>
-                        <button>3</button>
-                        <button>=</button>
-                    </div>
-                    <div class="colonne-5">
-                        <button>Euro</button>
-                        <button>/</button>
-                        <button>X</button>
-                        <button>-</button>
-                        <button>+</button>
+                    <!-- Création de la div pour la grille et la mise en place des boutons en leur ajoutant des class et ID pour le bouton plus (+) -->
+                    <div class="grille">
+                        <button class="button-blue bouton">OFF</button>
+                        <button class="button-blue bouton">+/-</button>
+                        <button class="button-blue bouton">%</button>
+                        <button class="button-grey bouton">Local</button>
+                        <button class="button-grey bouton">Euro</button>
+                        <button class="button-blue bouton">MC</button>
+                        <button class="button-blue bouton">MR</button>
+                        <button class="button-blue bouton">M-</button>
+                        <button class="button-blue bouton">M+</button>
+                        <button class="button-blue bouton">÷</button>
+                        <button class="button-blue bouton">►</button>
+                        <button class="button-black bouton">7</button>
+                        <button class="button-black bouton">8</button>
+                        <button class="button-black bouton">9</button>
+                        <button class="button-black bouton">X</button>
+                        <button class="button-orange bouton">C</button>
+                        <button class="button-black bouton">4</button>
+                        <button class="button-black bouton">5</button>
+                        <button class="button-black bouton">6</button>
+                        <button class="button-blue bouton">-</button>
+                        <button class="button-orange bouton">AC</button>
+                        <button class="button-black bouton">1</button>
+                        <button class="button-black bouton">2</button>
+                        <button class="button-black bouton">3</button>
+                        <button class="button-blue bouton" id="boutonplus">+</button>
+                        <button class="button-black bouton">0</button>
+                        <button class="button-black bouton">00</button>
+                        <button class="button-black bouton">•</button>
+                        <button class="button-blue bouton">=</button>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-
-
+    </main>
 </body>
 
 </html>
