@@ -1,4 +1,179 @@
+/* Suppression des marges navigateur */
 * {
     margin: 0;
-    background-color: beige;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Couleur de fond du site */
+body {
+    background-color: lightgrey;
+    background-image: url(../img/background.png);
+}
+
+/* Mise en place d'un titre et centrage */
+h1 {
+    text-align: center;
+    padding: 2rem;
+}
+
+/* Mise en place d'une barre de séparation, gestion de la taille et centrage */
+hr {
+    width: 60%;
+    margin: 0 auto;
+}
+
+/* Centrage de la calculatrice sur la page */
+.centrage-calculette {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Paramétrage des bords de la calculatrice */
+.calculette {
+    border: 1px solid blue;
+    border-radius: 2rem;
+}
+
+/* Configuration de la section partie-haute de la calculatrice */
+.partie-haute {
+    border-radius: 1.9rem 1.9rem 0 0;
+    padding: 1.5rem;
+    background-color: rgb(64, 93, 179);
+}
+
+/* Mise en place de la ligne au dessus du cadran, en space between et centré */
+.ligne-casio {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding-bottom: 1rem;
+    align-items: center;
+}
+
+/* Mise en place de l'élément panneau solaire */
+.solaire {
+    width: 100px;
+    height: 20px;
+    border: 2px solid rgba(59, 42, 42, 0.792);
+    background: rgba(59, 42, 42, 0.792);
+    border-radius: 5px;
+}
+
+/* Réduction de la taille de la typo du modèle de la calculatrice */
+.modele {
+    font-size: 10px;
+}
+
+/* Couleur de fond, bords arrondis et marge du cadran */
+.cadran {
+    background-color: lightgrey;
+    border-radius: 0.2rem;
+    margin: 5px;
+}
+
+/* Mise en place des éléments au dessus des chiffres */
+.ligne-type {
+    display: flex;
+    justify-content: space-around;
+    font-size: 10px;
+}
+
+/* Mise en place des chiffres dans le cadran */
+.chiffres {
+    display: flex;
+    justify-content: end;
+    font-size: 40px;
+}
+
+/*Configuration de la partie basse de la calculette et mise en place des bords, de la couleur de fond et du padding */
+.partie-basse {
+    border-radius: 0 0 2rem 2rem;
+    background-color: rgb(12, 142, 0);
+    padding: 0 1.5rem 1.5rem;
+}
+
+/* Mise en place du texte en flex côte à côte, centrage vertical et un peu espacé */
+.bouton-type {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+/* Placement du texte SET */
+.bouton-type .set {
+    width: 53%;
+    text-align: end;
+    font-size: 10px;
+}
+
+/* Placement du texte RATE */
+.bouton-type .rate {
+    width: 47%;
+    text-align: end;
+    font-size: 10px;
+}
+
+/* Mise en place de la grille en précésant les template de colonnes et rows, avec un marge en bas et un gap entre les boutons de la grille */
+.grille {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* Placement du bouton + sur deux lignes */
+#boutonplus {
+    grid-column: 5 / 6;
+    grid-row: 5 / 7;
+}
+
+/* Mise en place de la couleur grise sur les boutons gris */
+.button-grey {
+    background-color: grey;
+    border: 1px solid grey;
+    border-radius: 5px;
+    color: white;
+    box-shadow: 1px 1px 1px grey;
+}
+
+/* Mise en place de la couleur jaune sur les boutons jaunes */
+.button-orange {
+    background-color: orange;
+    color: white;
+    border: 1px solid orange;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px orange;
+}
+
+/* Mise en place de la couleur noire sur les boutons noirs */
+.button-black {
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px black;
+}
+
+/* Mise en place de la couleur bleue sur les boutons bleus  */
+.button-blue {
+    background-color: blue;
+    border: 1px solid blue;
+    border-radius: 5px;
+    color: white;
+    box-shadow: 1px 1px 1px blue;
+
+}
+
+/* Au passage de la souris sur le bouton, l'opacité baisse */
+.bouton:hover {
+    opacity: 60%;
+}
+
+/* Au clic de la souris sur le bouton, l'opacité reviens normale et un effet vers le bas se produit */
+.bouton:active {
+    opacity: 100%;
+    transform: translateY(1px);
 }
