@@ -54,8 +54,8 @@ hr {
 
 /* Mise en place de l'élément panneau solaire */
 .solaire {
-    width: 100px;
-    height: 20px;
+    width: 40%;
+    height: 1.3rem;
     border: 2px solid rgba(59, 42, 42, 0.792);
     background: rgba(59, 42, 42, 0.792);
     border-radius: 5px;
