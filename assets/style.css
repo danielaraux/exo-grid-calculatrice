@@ -32,7 +32,7 @@ hr {
 
 /* Paramétrage des bords de la calculatrice */
 .calculette {
-    border: 1px solid blue;
+    border: 1px solid #adc3d2;
     border-radius: 2rem;
 }
 
@@ -40,7 +40,7 @@ hr {
 .partie-haute {
     border-radius: 1.9rem 1.9rem 0 0;
     padding: 1.5rem;
-    background-color: rgb(64, 93, 179);
+    background-color: #547083;
 }
 
 /* Mise en place de la ligne au dessus du cadran, en space between et centré */
@@ -68,7 +68,7 @@ hr {
 
 /* Couleur de fond, bords arrondis et marge du cadran */
 .cadran {
-    background-color: lightgrey;
+    background-color: #f1f1f1;
     border-radius: 0.2rem;
     margin: 5px;
 }
@@ -85,12 +85,13 @@ hr {
     display: flex;
     justify-content: end;
     font-size: 40px;
+    margin-right: 10px;
 }
 
 /*Configuration de la partie basse de la calculette et mise en place des bords, de la couleur de fond et du padding */
 .partie-basse {
     border-radius: 0 0 2rem 2rem;
-    background-color: rgb(12, 142, 0);
+    background-color: #adc3d2;
     padding: 0 1.5rem 1.5rem;
 }
 
@@ -132,38 +133,38 @@ hr {
 
 /* Mise en place de la couleur grise sur les boutons gris */
 .button-grey {
-    background-color: grey;
-    border: 1px solid grey;
+    background-color: #90a4ae;
+    border: 1px solid #90a4ae;
     border-radius: 5px;
     color: white;
-    box-shadow: 1px 1px 1px grey;
+    box-shadow: 1px 1px 1px #90a4ae;
 }
 
 /* Mise en place de la couleur jaune sur les boutons jaunes */
 .button-orange {
-    background-color: orange;
+    background-color: #c8a855;
     color: white;
-    border: 1px solid orange;
+    border: 1px solid #c8a855;
     border-radius: 5px;
-    box-shadow: 1px 1px 1px orange;
+    box-shadow: 1px 1px 1px #c8a855;
 }
 
 /* Mise en place de la couleur noire sur les boutons noirs */
 .button-black {
-    background-color: black;
+    background-color: #414855;
     color: white;
-    border: 1px solid black;
+    border: 1px solid #414855;
     border-radius: 5px;
-    box-shadow: 1px 1px 1px black;
+    box-shadow: 1px 1px 1px #414855;
 }
 
 /* Mise en place de la couleur bleue sur les boutons bleus  */
 .button-blue {
-    background-color: blue;
-    border: 1px solid blue;
+    background-color: #435a6b;
+    border: 1px solid #435a6b;
     border-radius: 5px;
     color: white;
-    box-shadow: 1px 1px 1px blue;
+    box-shadow: 1px 1px 1px #435a6b;
 
 }
 
