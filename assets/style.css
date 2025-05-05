@@ -151,7 +151,7 @@ hr {
 
 /* Mise en place de la couleur noire sur les boutons noirs */
 .button-black {
-    background-color: #414855;
+    background-color: #2e343f;
     color: white;
     border: 1px solid #414855;
     border-radius: 5px;
